@@ -1,0 +1,28 @@
+Comandos para instalación de Django
+
+pip install django
+pip install djangorestframework
+pip install django-cors-headers
+py -m django startproject "nombreDelProyecto"
+python .\manage.py runserver
+
+Crear otra clase del proyecto
+
+Python manage.py startapp IaTextOfuscation
+
+
+
+--------------------------------------------------
+
+Instalación del repositorio de Huertas
+
+### UPDATE INSTALLATION WITH PACKAGE NAME
+!pip install "xx_LeetSpeakNER_mstsb_mpnet @ https://huggingface.co/Huertas97/xx_LeetSpeakNER_mstsb_mpnet/resolve/main/xx_LeetSpeakNER_mstsb_mpnet-any-py3-none-any.whl"
+
+# Using spacy.load().
+import spacy
+nlp = spacy.load("xx_LeetSpeakNER_mstsb_mpnet")
+
+# Importing as module.
+import xx_LeetSpeakNER_mstsb_mpnet
+nlp = xx_LeetSpeakNER_mstsb_mpnet.load()
